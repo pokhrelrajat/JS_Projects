@@ -1,24 +1,29 @@
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
-input[type=number] {
-    -moz-appearance:textfield; /* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
 }
 
-#header{
-	background-color: green;
-	margin: 20px;
-	padding: 20px;
-	border-bottom: 7px;
-	color:white;
-	text-align: center;
-} 
-
-#simpleInterest{
-	text-align: center;
+#header {
+  background-color: green;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 7px;
+  color: white;
+  text-align: center;
 }
 
+#simpleInterest {
+  text-align: center;
+}
+
+#wrapper {
+  margin: 0px auto;
+  width: 900px;
+  background-color: rgb(58, 194, 4);
+}
