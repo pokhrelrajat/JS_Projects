@@ -1,0 +1,24 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+#header{
+	background-color: green;
+	margin: 20px;
+	padding: 20px;
+	border-bottom: 7px;
+	color:white;
+	text-align: center;
+} 
+
+#simpleInterest{
+	text-align: center;
+}
+
